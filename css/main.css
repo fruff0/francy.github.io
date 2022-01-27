@@ -34,6 +34,7 @@ body{
   text-align: left;
   list-style: circle;
   margin-left: 40px;
+  vertical-align: middle;
 }
 .main-body a{
   text-decoration: none;
