@@ -1,0 +1,153 @@
+/* -- font family declarations --
+* font-family: 'EB Garamond', serif;
+* font-family: 'Spectral', serif;
+*/
+body{
+  background-color: #fffcf5 !important;
+}
+.main-wrapper{
+  font-family: "Spectral", sans-serif;
+  position:relative;
+  top:50px;
+  width:70vw;
+  left:15vw;
+}
+.main-title{
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
+}
+.main-body{
+  text-align: justify;
+}
+.main-body h2{
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  font-size: 23px;
+}
+.main-body ul{
+  margin: 10px 0px 10px 0px;
+}
+.main-body ul li{
+  padding-top: 10px;
+  text-align: left;
+  list-style: circle;
+  margin-left: 40px;
+}
+.main-body a{
+  text-decoration: none;
+  color: rgba(0,0,0,.5);
+  font-weight: bold;
+  font-style: italic;
+}
+.new{
+  text-decoration: none;
+  color: #111 !important;
+  font-weight: bold;
+  font-style: italic;
+}
+.unavailable{
+  text-decoration: line-through !important;
+}
+.unavailable:hover{
+  cursor: default;
+}
+hr{
+  position:relative;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:70%;
+  background-color: #111;
+}
+/*footer*/
+.footer{
+  position:absolute;
+  bottom: 0;
+  width:100%;
+  height:60px;
+  background:#6cf;
+}
+.contact-list img{
+  vertical-align: middle;
+}
+.contact-list li{
+  list-style: none !important;
+  margin: 0 !important;
+}
+@media screen and (max-width:600px){
+  .main-wrapper{
+    padding-bottom: 50px;
+  }
+  .main-body ul{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+  }
+  .main-body ul li{
+    padding-top: 10px;
+    text-align: justify;
+    list-style: none;
+    margin: 0;
+  }
+  .contact-list{
+    text-align: center !important;
+  }
+  .contact-list li{
+    display: inline-block;
+    margin-top:10px !important;
+    padding: 0 10px 0 10px !important;
+    transform: scale(1.4);
+    margin: 0 !important;
+  }
+  .handle{
+    display: none;
+  }
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
